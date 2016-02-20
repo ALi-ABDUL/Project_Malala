@@ -1,0 +1,116 @@
+/*
+//////////////////////////////////////////
+//          ALi Abdul
+//      Adelaide Australia
+//  The Noob Coder :)   20-Feb-2016
+//////////////////////////////////////////
+*/
+* { margin: 0px; padding: 0px;}
+#admin {background: #9EC6EA;}
+
+#AdminZone{
+ position: relative;
+ border: 1px solid blue;
+ border-radius: 10px 10px;
+ background: #fff;
+ width: 80%;
+ height: 450px;
+ margin: 20px auto;
+ padding-top: 0px auto;
+ box-shadow: 2px 2px 2px 2px;
+}
+.statistics{
+    position: absolute;
+    border-radius: 5px 5px;
+    border: 1px solid black;
+    width: 73%;
+    height: 420px;
+    margin: 15px 280px;
+    padding: 0px auto;
+}
+span.StTitle{
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    color: gray;
+    text-decoration-line: underline;
+    letter-spacing: 15px;
+    font-style: italic;
+}
+.Info{
+    float: left;
+    border: 1px solid black;
+    width: 43%;
+    height: 100px;
+    margin: 20px;
+    padding: 0px auto;
+}
+.LatestMembers{
+    float: right;
+    border: 1px solid black;
+    width: 43%;
+    height: 100px;
+    margin: 20px;
+    padding: 0px auto;
+}
+.ActiveArticles{
+    border: 1px solid black;
+    width: 95%;
+    height: 220px;
+    margin: 150px auto;
+    padding: 0px auto;
+}
+p {
+    background: lightgray;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.txt{
+    position: absolute;
+    font-family: sans-serif;
+    margin: 10px ;
+    line-height: 20px;
+    padding: 0px auto;
+    font-size: 13px;
+    
+}
+
+#tr:hover{
+    background: black;
+    color: red;
+    font-weight: bolder;
+}
+.right{
+    float: right;
+    font-family: sans-serif;
+    margin: 0px ;
+    line-height: 20px;
+    padding: 0px auto;
+    font-size: 13px;
+    
+}
+.adminSidebar{
+    position: absolute;
+    background: #cfc;
+    border: 2px dashed black;
+    border-radius: 5px 5px 5px 5px;
+    width: 250px;
+    height: 430px;
+    margin: 10px;   
+}
+.AdminLinks ul li{
+    list-style: none;
+    margin: 20px 15px 10px 5px;
+    padding: 10px 10px 10px 10px;
+}
+.AdminLinks ul a{
+    text-decoration: none;
+    font-size: 18.5px;
+    font-family: monospace;
+    padding: 11px 15px 10px 15px;
+}
+.AdminLinks ul li a:hover{
+   background: lightgray;
+   color: brown;
+}

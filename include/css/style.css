@@ -1,0 +1,179 @@
+/*
+//////////////////////////////////////////
+//          ALi Abdul
+//      Adelaide Australia
+//  The Noob Coder :)   20-Feb-2016
+//////////////////////////////////////////
+*/
+body {
+    background: #cfc;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+ text-decoration: none;
+}
+
+.wrapper{
+ position: relative;
+ background: red;
+ border-right: 1px solid #C21A1E;
+ border-top: 1px solid #C21A1E;
+ border-left: 1px solid gray;
+ border-bottom: 1px solid gray;
+ width: 1001px;
+ height: 660px;
+ margin: 0px auto;
+}
+
+#content {
+ background: lightgray;
+ border: 1px solid gray;
+ float: left;
+ overflow: auto;
+ width: 745px;
+ height: 500px;
+ margin: 0px auto;   
+}
+#content h2{
+ color: brown;
+ font-weight: bold;
+ font-family: sans-serif;
+ font-style: italic;
+}
+#content p{
+ font-family: sans-serif;
+ font-size: 14px;
+ text-align: justify;
+ letter-spacing: 1.1px;
+ line-height: 2em;
+ padding-right: 20px;
+
+}
+#content a{
+ text-decoration: none;
+ color: #000;
+}
+#content a:hover{
+ text-decoration: none;
+ color: darkred;
+}
+#content #img{
+ border: 0px;
+ float: left;
+ line-height: 20px;
+ padding: 20px 5px 5px 5px;
+ width: 150px;
+ height: 100px;
+}
+#content #read{
+ float: right;
+ font-weight: light;
+ font-size: 13px;
+ text-decoration: underline;
+}
+
+#header {
+ background-image: url(../../images/header.jpg);
+ background-size: 1000px 150px;
+ background-repeat: no-repeat;
+ background-position: center;
+ border: 1px solid red;
+ width: 1000px;
+ height: 100px;
+ margin: 0px auto;   
+}
+
+#navbar{
+ background: #EAEAEA;
+ border-top: 3px solid #C21A1E;
+ border-bottom: 1px solid #C21A1E;
+ border-left: 1px solid red;
+ width: 1000px;
+ height: 25px;
+ margin: 0px auto;    
+}
+
+#links a{
+ width: 150px;
+ height: 25px;
+ float: left;
+ line-height: 22px;
+ font-family: sans-serif;
+ font-size: 13px;
+ color: #000;
+ font-weight: bold;
+ text-align: center;
+    
+}
+
+#links a:hover{
+ width: 150px;
+ height: 25px;
+ float: left;
+ background: lightblue;
+ line-height: 22px;
+ font-family: sans-serif;
+ font-size: 13px;
+ color:  darkred;
+ font-weight: bold;
+ text-align: center;
+}
+
+#sidebar {
+ background: pink;
+ border: 1px solid red;
+ float: right;
+ width: 250px;
+ height: 500px;
+ margin: 0px auto;  
+}
+aside{
+    border-bottom: 2px dashed black;
+}
+.SidebarTitle{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0px 5px 0px;
+    
+}
+.SideBImg{
+    float: left;
+    padding-top: 0px 2px 0px 2px;
+    width: 60px;
+    height: 30px;
+}
+.SidebarContent{
+    font-weight: light;
+    font-size: 13px;
+    font-style: justify;
+    line-height: 2px;
+    padding: 20px 0px 5px 0px;
+}
+.Sidelogin{
+    margin: 0px auto;
+    padding: 0px auto;
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+}
+.Sidelogin form input{
+    background: #eee;
+    border: 1px solid red;
+    border-radius: 5px 5px;
+    height: 18px;
+    box-shadow: 1px 1px;
+    padding: 0px auto;
+    
+}
+#footer {
+ background: yellow;
+ border: 1px solid red;
+ width: 100%;
+ height: 25px;
+ text-align: center;
+ font-weight: lighter;
+ letter-spacing: 5px;
+ clear: both;    
+}
